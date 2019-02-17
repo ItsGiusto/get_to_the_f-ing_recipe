@@ -1,4 +1,4 @@
-var classTermArray = ["wprm-recipe-container", "tasty-recipes-display"];
+var classTermArray = ["wprm-recipe-container", "tasty-recipes-display", "easyrecipe-custom"];
 
 function setupRecipeActions() {
     for (var i = 0; i < classTermArray.length; i++) {
