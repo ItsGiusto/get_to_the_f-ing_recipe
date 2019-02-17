@@ -1,0 +1,12 @@
+{
+  "name": "Get to the F***ing Recipe",
+  "version": "1.0",
+  "description": "Move recipe content to the top of pages for recipe blogs",
+  "content_scripts": [
+     {
+       "matches": ["<all_urls>"],
+       "js": ["contentScript.js"]
+     }
+   ],
+  "manifest_version": 2
+}
