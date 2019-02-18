@@ -8,7 +8,7 @@
 // @grant        none
 // ==/UserScript==
 
-var classTermArray = ["wprm-recipe-container", "tasty-recipes-display", "easyrecipe-custom"];
+var classTermArray = ["wprm-recipe-container", "tasty-recipes-display", "easyrecipe-custom", "recipe", "recipe-wrapper", "jetpack-recipe", "ingredients-recipe", "zlrecipe-container-border"];
 
 function setupRecipeActions() {
     for (var i = 0; i < classTermArray.length; i++) {
